@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 values.put("name","A Clash of Kings");
                 values.put("author", "George Martin");
                 values.put("pages",1040);
-                values.put("price",22.85);
+                values.put("price",55);
                 Uri newUri = getContentResolver().insert(uri,values);
                 newId = newUri.getPathSegments().get(1);
             }
